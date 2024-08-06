@@ -1,4 +1,8 @@
 {
-  "key.antilose.tapemouse": "TapeMouse Key",
+  "key.antilose.autosprint": "Auto Sprint Bind",
+  "key.antilose.fullbright": "FullBright Bind",
+  "key.antilose.nocrystaldelay": "No Crystal Delay Bind",
+  "key.antilose.nojumpdelay": "No Jump Delay Bind",
+  "key.antilose.tapemouse": "TapeMouse Bind",
   "category.antilose.keybinding": "Antilose"
 }

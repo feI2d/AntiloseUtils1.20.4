@@ -21,11 +21,7 @@ public class KeyboardMixin {
             {
                 MinecraftClient.getInstance().setScreen(AntiloseUtils.INSTANCE.getMenuScreen());
             }
-            if (ModKeybinds.tapeMouseBind.isPressed()) {
-                if (MinecraftClient.getInstance().currentScreen == null) {
-                    AntiloseUtils.INSTANCE.getModuleManager().getTapeMouse().toggle();
-                }
-            }
+            ModKeybinds.handleKeyBinds();
         }
     }
 

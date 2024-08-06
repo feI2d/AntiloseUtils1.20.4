@@ -1,4 +1,8 @@
 {
-  "key.antilose.tapemouse": "Кнопка для включения TapeMouse",
+  "key.antilose.autosprint": "Бинд для Auto Sprint",
+  "key.antilose.fullbright": "Бинд для FullBright",
+  "key.antilose.nocrystaldelay": "Бинд для No Crystal Delay",
+  "key.antilose.nojumpdelay": "Бинд для No Jump Delay",
+  "key.antilose.tapemouse": "Бинд для TapeMouse",
   "category.antilose.keybinding": "Antilose"
 }
