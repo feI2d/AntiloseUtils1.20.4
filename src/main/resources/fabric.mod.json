@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "antilose-utils",
+	"version": "1.1",
+	"name": "Antilose Utils",
+	"description": "Полезные функции для майна",
+	"authors": [
+		"feI2d"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/antilose-utils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.antilose.AntiloseUtils"
+		]
+	},
+	"mixins": [
+		"antilose-utils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
