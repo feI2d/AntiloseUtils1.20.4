@@ -7,7 +7,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import xyz.antilose.events.impl.TickEvent;
 import xyz.antilose.features.Module;
 
-@Module.registerModule(name = "Fullbright", desc = "Даёт вам бесконечный еффект ночного зрения")
+@Module.registerModule(name = "FullBright", desc = "Даёт вам бесконечный еффект ночного зрения")
 public class FullBright extends Module {
 
     @Subscribe

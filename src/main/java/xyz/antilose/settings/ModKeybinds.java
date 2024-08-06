@@ -3,6 +3,7 @@ package xyz.antilose.settings;
 import net.fabricmc.fabric.impl.client.keybinding.KeyBindingRegistryImpl;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
+import org.lwjgl.glfw.GLFW;
 import xyz.antilose.AntiloseUtils;
 
 public class ModKeybinds {
@@ -13,11 +14,11 @@ public class ModKeybinds {
     public static KeyBinding noJumpDelayBind;
     public static KeyBinding tapeMouseBind;
     public static void initKeyBinds() {
-        autoSprintBind = new KeyBinding("key.antilose.autosprint", 0, "category.antilose.keybinding");
-        fullBrightBind = new KeyBinding("key.antilose.fullbright", 0, "category.antilose.keybinding");
-        noCrystalDelayBind = new KeyBinding("key.antilose.nocrystaldelay", 0, "category.antilose.keybinding");
-        noJumpDelayBind = new KeyBinding("key.antilose.nojumpdelay", 0, "category.antilose.keybinding");
-        tapeMouseBind = new KeyBinding("key.antilose.tapemouse", 0, "category.antilose.keybinding");
+        autoSprintBind = new KeyBinding("key.antilose.autosprint",  GLFW.GLFW_KEY_UNKNOWN, "category.antilose.keybinding");
+        fullBrightBind = new KeyBinding("key.antilose.fullbright", GLFW.GLFW_KEY_UNKNOWN, "category.antilose.keybinding");
+        noCrystalDelayBind = new KeyBinding("key.antilose.nocrystaldelay", GLFW.GLFW_KEY_UNKNOWN, "category.antilose.keybinding");
+        noJumpDelayBind = new KeyBinding("key.antilose.nojumpdelay", GLFW.GLFW_KEY_UNKNOWN, "category.antilose.keybinding");
+        tapeMouseBind = new KeyBinding("key.antilose.tapemouse", GLFW.GLFW_KEY_UNKNOWN, "category.antilose.keybinding");
         KeyBindingRegistryImpl.registerKeyBinding(tapeMouseBind);
     }
 
